@@ -4,7 +4,7 @@ require_once "Animal.php";
 
  class Gat extends Animal {
     public function makeSound() : string {
-        return "miau miau";
+        return "miau meuuu";
     }
  }
  ?>

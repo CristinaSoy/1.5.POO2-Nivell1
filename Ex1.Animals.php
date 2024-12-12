@@ -7,13 +7,13 @@ require_once "Animal.php";
 require_once "Gos.php";
 require_once "Gat.php";
 
-$animals = [];
-$animals[] = new Gos("Rumba");
-$animals[] = new Gat("Rasputin");
+$zoo = [];
+$zoo[] = new Gos("Rumba");
+$zoo[] = new Gat("Rasputin");
+$zoo[] = new Gos("Lluna");
 
-foreach($animals as $animal) {
-    if($animal instanceof Animal) {
-        echo $animal->makeSound(). "<br>";
-    }
+foreach($zoo as $ejemplar) {
+    echo $ejemplar->makeSound(). "<br>";
 }
+
 ?>

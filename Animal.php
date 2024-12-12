@@ -8,6 +8,6 @@ abstract class Animal {
         $this->nom = $nom;
     }
 
-    abstract public function makeSound() : string;
+    abstract protected function makeSound() : string;
 }
 ?>
